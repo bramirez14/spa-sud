@@ -8,9 +8,11 @@ const Home = () => {
         {missionnaries.map((misionary) => (
           <div className=" grid  grid-cols-12  border border-black rounded-md  ">
             <div className=" col-span-4  ">
-              <img
+              <Image
                 src={misionary.image}
                 alt=""
+                width={100}
+                height={100}
                 className="object-contain h-[200px] rounded-md w-full"
                 loading="lazy"
               />
